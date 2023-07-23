@@ -32,8 +32,8 @@ const text=fetchText();
 const container = document.querySelector("#component-container");
 const pEl=container.querySelector("p");
 
-const button1 =container.querySelector('#showMoretext');
-const button2 =container.querySelector('#showLesstext');
+const button1 =container.querySelector("button[action=showMoretext]");
+const button2 =container.querySelector("button[action=showLesstext]");
 
 pEl.innerHTML=text;
 let subIndex=260;
